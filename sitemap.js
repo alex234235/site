@@ -182,11 +182,11 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = 'Тема статьи';
-   var tocTool1 = 'Нажмите для сортировки по теме статьи';
-   var tocHead2 = 'Дата публикации';
-   var tocTool2 = 'Нажмите для сортировки по дате';
-   var tocHead3 = 'Категории';
+   var tocHead1 = 'POST TITLE';
+   var tocTool1 = 'Click to sort by title';
+   var tocHead2 = 'POST DATE';
+   var tocTool2 = 'Click to sort by date';
+   var tocHead3 = 'LABELS';
    var tocTool3 = '';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
